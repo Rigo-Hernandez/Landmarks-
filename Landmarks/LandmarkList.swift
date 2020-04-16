@@ -6,20 +6,26 @@
 //  Copyright © 2020 Rigo Hernandez. All rights reserved.
 //
 
+
 import SwiftUI
+
 
 struct LandmarkList: View {
     var body: some View {
-        List(landmarkData) { Landmark in
-            LandmarkRow(landmark: Landmark)
- 
+        NavigationView {
+            List(landmarkData) { landmark in
+                NavigationLink(destination: LandmarkDetail()) {
+                    LandmarkRow(landmark: landmark)
+                }
+            }
+            .navigationBarTitle(Text("Landmarks"))
         }
     }
 }
+
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkList()
     }
 }
-
