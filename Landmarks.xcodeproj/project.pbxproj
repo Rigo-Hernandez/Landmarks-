@@ -46,6 +46,7 @@
 		65A5B0A7244C0A5B0057DFF5 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A5B0A6244C0A5B0057DFF5 /* UserData.swift */; };
 		65A5B0A9244C17EB0057DFF5 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A5B0A8244C17EB0057DFF5 /* Badge.swift */; };
 		65A5B0AB244C18B50057DFF5 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A5B0AA244C18B50057DFF5 /* HexagonParameters.swift */; };
+		65AF630D245140B300CC81C7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF630C245140B300CC81C7 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,7 @@
 		65A5B0A6244C0A5B0057DFF5 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		65A5B0A8244C17EB0057DFF5 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		65A5B0AA244C18B50057DFF5 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		65AF630C245140B300CC81C7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 				65A5B0AA244C18B50057DFF5 /* HexagonParameters.swift */,
 				658A08FB24512D13009A43BA /* HikeView.swift */,
 				658A09062451332E009A43BA /* HikeDetail.swift */,
+				65AF630C245140B300CC81C7 /* Home.swift */,
 				658FED112431B82E0096EDA2 /* Assets.xcassets */,
 				658FED162431B82E0096EDA2 /* LaunchScreen.storyboard */,
 				658FED192431B82E0096EDA2 /* Info.plist */,
@@ -411,6 +414,7 @@
 				65628A57244EBF77001FB944 /* BadgeSymbol.swift in Sources */,
 				65628A59244EC05E001FB944 /* RotatedBadgeSymbol.swift in Sources */,
 				65699105244801D40020EDD5 /* LandmarkDetail.swift in Sources */,
+				65AF630D245140B300CC81C7 /* Home.swift in Sources */,
 				65628A55244EBEE1001FB944 /* BadgeBackground.swift in Sources */,
 				658FED0E2431B82C0096EDA2 /* SceneDelegate.swift in Sources */,
 				658A0903245132AD009A43BA /* GraphCapsule.swift in Sources */,
