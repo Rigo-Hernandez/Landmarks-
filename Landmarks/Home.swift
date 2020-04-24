@@ -6,31 +6,33 @@
 //  Copyright © 2020 Rigo Hernandez. All rights reserved.
 //
 
+
 import SwiftUI
 
+
 struct CategoryHome: View {
-    var categories: [String: [Landmark]]{
+    var categories: [String: [Landmark]] {
         Dictionary(
-        grouping: landmarkData,
-        by: { $0.category.rawValue }
+            grouping: landmarkData,
+            by: { $0.category.rawValue }
         )
     }
     
     var featured: [Landmark] {
-        landmarkData.filter {$0.isFeatured}
+        landmarkData.filter { $0.isFeatured }
     }
     
     var body: some View {
         NavigationView {
-            List{
+            List {
                 FeaturedLandmarks(landmarks: featured)
                     .scaledToFill()
                     .frame(height: 200)
                     .clipped()
                     .listRowInsets(EdgeInsets())
                 
-                ForEach(categories.keys.sorted(), id: \.self) {
-                    key in CategoryRow(categoryName: key, items: self.categories[key]!)
+                ForEach(categories.keys.sorted(), id: \.self) { key in
+                    CategoryRow(categoryName: key, items: self.categories[key]!)
                 }
                 .listRowInsets(EdgeInsets())
             }
@@ -39,6 +41,7 @@ struct CategoryHome: View {
     }
 }
 
+
 struct FeaturedLandmarks: View {
     var landmarks: [Landmark]
     var body: some View {
@@ -46,7 +49,8 @@ struct FeaturedLandmarks: View {
     }
 }
 
-struct Home_Previews: PreviewProvider {
+
+struct CategoryHome_Previews: PreviewProvider {
     static var previews: some View {
         CategoryHome()
     }
