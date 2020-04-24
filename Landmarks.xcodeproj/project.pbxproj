@@ -47,6 +47,7 @@
 		65A5B0A9244C17EB0057DFF5 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A5B0A8244C17EB0057DFF5 /* Badge.swift */; };
 		65A5B0AB244C18B50057DFF5 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A5B0AA244C18B50057DFF5 /* HexagonParameters.swift */; };
 		65AF630D245140B300CC81C7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF630C245140B300CC81C7 /* Home.swift */; };
+		65AF630F2451458700CC81C7 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF630E2451458700CC81C7 /* CategoryRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,7 @@
 		65A5B0A8244C17EB0057DFF5 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		65A5B0AA244C18B50057DFF5 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		65AF630C245140B300CC81C7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		65AF630E2451458700CC81C7 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 				658A08FB24512D13009A43BA /* HikeView.swift */,
 				658A09062451332E009A43BA /* HikeDetail.swift */,
 				65AF630C245140B300CC81C7 /* Home.swift */,
+				65AF630E2451458700CC81C7 /* CategoryRow.swift */,
 				658FED112431B82E0096EDA2 /* Assets.xcassets */,
 				658FED162431B82E0096EDA2 /* LaunchScreen.storyboard */,
 				658FED192431B82E0096EDA2 /* Info.plist */,
@@ -420,6 +423,7 @@
 				658A0903245132AD009A43BA /* GraphCapsule.swift in Sources */,
 				6580CFAD243EC0CE003D5A7B /* LandmarkRow.swift in Sources */,
 				65A5B0A7244C0A5B0057DFF5 /* UserData.swift in Sources */,
+				65AF630F2451458700CC81C7 /* CategoryRow.swift in Sources */,
 				6580CF8C243EBF39003D5A7B /* Landmark.swift in Sources */,
 				658A09072451332E009A43BA /* HikeDetail.swift in Sources */,
 			);
