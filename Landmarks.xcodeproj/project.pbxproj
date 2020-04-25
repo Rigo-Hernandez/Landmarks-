@@ -50,6 +50,7 @@
 		65AF630F2451458700CC81C7 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF630E2451458700CC81C7 /* CategoryRow.swift */; };
 		65AF63112453D26200CC81C7 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF63102453D26200CC81C7 /* Profile.swift */; };
 		65AF63132453D2EA00CC81C7 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF63122453D2EA00CC81C7 /* ProfileHost.swift */; };
+		65AF63152453D40D00CC81C7 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF63142453D40D00CC81C7 /* ProfileSummary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,7 @@
 		65AF630E2451458700CC81C7 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		65AF63102453D26200CC81C7 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		65AF63122453D2EA00CC81C7 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		65AF63142453D40D00CC81C7 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +216,7 @@
 				6580CF8A243EBE95003D5A7B /* Models */,
 				658FED132431B82E0096EDA2 /* Preview Content */,
 				65AF63122453D2EA00CC81C7 /* ProfileHost.swift */,
+				65AF63142453D40D00CC81C7 /* ProfileSummary.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				6580CFAD243EC0CE003D5A7B /* LandmarkRow.swift in Sources */,
 				65A5B0A7244C0A5B0057DFF5 /* UserData.swift in Sources */,
 				65AF630F2451458700CC81C7 /* CategoryRow.swift in Sources */,
+				65AF63152453D40D00CC81C7 /* ProfileSummary.swift in Sources */,
 				6580CF8C243EBF39003D5A7B /* Landmark.swift in Sources */,
 				658A09072451332E009A43BA /* HikeDetail.swift in Sources */,
 			);
