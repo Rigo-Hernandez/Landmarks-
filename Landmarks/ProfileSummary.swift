@@ -46,6 +46,13 @@ struct ProfileSummary: View {
                         .hueRotation(Angle(degrees: 45))
                     }
                 }
+                .frame(height: 140)
+            }
+            VStack(alignment: .leading) {
+              Text("Recent Hikes")
+                .font(.headline)
+                
+                HikeView(hike: hikeData[0])
             }
         }
     }
