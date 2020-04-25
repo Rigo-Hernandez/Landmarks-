@@ -51,6 +51,7 @@
 		65AF63112453D26200CC81C7 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF63102453D26200CC81C7 /* Profile.swift */; };
 		65AF63132453D2EA00CC81C7 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF63122453D2EA00CC81C7 /* ProfileHost.swift */; };
 		65AF63152453D40D00CC81C7 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF63142453D40D00CC81C7 /* ProfileSummary.swift */; };
+		65AF63172453D4DA00CC81C7 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AF63162453D4DA00CC81C7 /* HikeBadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +122,7 @@
 		65AF63102453D26200CC81C7 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		65AF63122453D2EA00CC81C7 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		65AF63142453D40D00CC81C7 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		65AF63162453D4DA00CC81C7 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 				658FED132431B82E0096EDA2 /* Preview Content */,
 				65AF63122453D2EA00CC81C7 /* ProfileHost.swift */,
 				65AF63142453D40D00CC81C7 /* ProfileSummary.swift */,
+				65AF63162453D4DA00CC81C7 /* HikeBadge.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				65628A59244EC05E001FB944 /* RotatedBadgeSymbol.swift in Sources */,
 				65699105244801D40020EDD5 /* LandmarkDetail.swift in Sources */,
 				65AF630D245140B300CC81C7 /* Home.swift in Sources */,
+				65AF63172453D4DA00CC81C7 /* HikeBadge.swift in Sources */,
 				65628A55244EBEE1001FB944 /* BadgeBackground.swift in Sources */,
 				658FED0E2431B82C0096EDA2 /* SceneDelegate.swift in Sources */,
 				658A0903245132AD009A43BA /* GraphCapsule.swift in Sources */,
