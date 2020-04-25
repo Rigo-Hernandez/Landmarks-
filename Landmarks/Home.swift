@@ -27,6 +27,9 @@ struct CategoryHome: View {
     var profileButton: some View {
         Button(action: { self.showingProfile.toggle() }) {
             Image(systemName: "person.crop.circle")
+                .imageScale(.large)
+                .accessibility(label: Text("User Profile"))
+                .padding()
         }
     }
     
@@ -45,6 +48,7 @@ struct CategoryHome: View {
                 .listRowInsets(EdgeInsets())
             }
             .navigationBarTitle(Text("Featured"))
+            .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingProfile){
                 Text("User Profile")
             }
