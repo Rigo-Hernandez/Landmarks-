@@ -9,7 +9,6 @@
 
 import SwiftUI
 
-
 struct CategoryHome: View {
     var categories: [String: [Landmark]] {
         Dictionary(
@@ -17,7 +16,7 @@ struct CategoryHome: View {
             by: { $0.category.rawValue }
         )
     }
-    
+
     var featured: [Landmark] {
         landmarkData.filter { $0.isFeatured }
     }
@@ -33,13 +32,13 @@ struct CategoryHome: View {
                 .padding()
         }
     }
-    
+
     var body: some View {
         NavigationView {
             List {
                 FeaturedLandmarks(landmarks: featured)
                     .scaledToFill()
-                    .frame(height: 200)
+                    .frame(height: CGFloat(200))
                     .clipped()
                     .listRowInsets(EdgeInsets())
                 
@@ -48,20 +47,19 @@ struct CategoryHome: View {
                 }
                 .listRowInsets(EdgeInsets())
                 
-                NavigationLink(destination: LandmarkList()) {
+                NavigationLink(destination: LandmarkList { LandmarkDetail(landmark: $0) }) {
                     Text("See All")
                 }
             }
             .navigationBarTitle(Text("Featured"))
             .navigationBarItems(trailing: profileButton)
-            .sheet(isPresented: $showingProfile){
+            .sheet(isPresented: $showingProfile) {
                 ProfileHost()
                     .environmentObject(self.userData)
             }
         }
     }
 }
-
 
 struct FeaturedLandmarks: View {
     var landmarks: [Landmark]
@@ -70,9 +68,10 @@ struct FeaturedLandmarks: View {
     }
 }
 
-
 struct CategoryHome_Previews: PreviewProvider {
     static var previews: some View {
         CategoryHome()
+            .environmentObject(UserData())
     }
 }
+
