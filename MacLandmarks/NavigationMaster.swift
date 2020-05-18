@@ -24,6 +24,7 @@ struct NavigationMaster: View {
             )
             .listStyle(SidebarListStyle())
         }
+        .frame(minWidth: 225, maxWidth: 300)
     }
 }
 
