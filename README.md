@@ -6,7 +6,7 @@
   <h3 align="center">Landmarks</h3>
 
   <p align="center">
-    A Cross platform app for discovering and sharing the places you love built with SwiftUI. 
+    A native on all Apple Platforms Application for discovering and sharing the places you love built with SwiftUI. This project was created following the Apple documentation tutorial to help me get an understanding on integrating new features SwiftUI offers such as Declerative Syntax and Reusable Components.
     <br>
   </p>
 </p>
@@ -24,6 +24,7 @@
 
 - Open Project With XCode 11 
 - Landmarks folder contains data models and UI Essentials 
+<img src="https://i.ibb.co/dbXWpsM/Landmarks.gif" alt="Landmarks" border="0">
 - WatchLandmarks folder contains WatchOS Application 
 - MacLandmarks folder contains MacOS Application 
 
@@ -31,7 +32,7 @@
 
 ## What's included
 
-Some text
+
 
 ```Data models and Landmark View Structure
 Landmarks/
