@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Rigo-Hernandez/Landmarks-">
-    <img src="https://ibb.co/JHkjLZj" alt="Logo" width=72 height=72>
+    <img src="https://i.ibb.co/vkz4594/landmark-app-icon-76x76.png" alt="Logo" width=72 height=72>
   </a>
 
   <h3 align="center">Landmarks</h3>
