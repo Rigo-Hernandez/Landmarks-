@@ -45,3 +45,4 @@ struct LandmarkList_Previews: PreviewProvider {
             .environmentObject(UserData())
     }
 }
+
