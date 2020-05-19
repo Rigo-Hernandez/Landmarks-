@@ -24,7 +24,7 @@
 
 - Open Project With XCode 11 
 - Landmarks folder contains data models and UI Essentials 
-![](Landmarks.gif)
+    <img src="Landmarks.gif" alt="Logo" width=72 height=72>
 - WatchLandmarks folder contains WatchOS Application 
 - MacLandmarks folder contains MacOS Application 
 
